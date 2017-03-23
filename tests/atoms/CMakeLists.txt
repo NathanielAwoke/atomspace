@@ -37,3 +37,6 @@ TARGET_LINK_LIBRARIES(StateLinkUTest execution atomspace)
 
 ADD_CXXTEST(VariablesUTest)
 TARGET_LINK_LIBRARIES(VariablesUTest atomspace)
+
+ADD_CXXTEST(ManipulatingAtomsInCppUTest)
+TARGET_LINK_LIBRARIES(ManipulatingAtomsInCppUTest atomspace)
